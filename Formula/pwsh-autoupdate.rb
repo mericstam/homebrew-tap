@@ -6,24 +6,24 @@
 class PwshAutoupdate < Formula
   desc "Detect how PowerShell was installed and update (or install) it via the owning manager"
   homepage "https://github.com/mericstam/pwsh-autoupdate"
-  version "0.3.1"
+  version "0.3.2"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/mericstam/pwsh-autoupdate/releases/download/v0.3.1/pwsh-autoupdate-v0.3.1-aarch64-apple-darwin.tar.gz"
-      sha256 "fe54b0a3324f588a687fc8ae444b68cdec282d97630675c03e6818ccf6372634"
+      url "https://github.com/mericstam/pwsh-autoupdate/releases/download/v0.3.2/pwsh-autoupdate-v0.3.2-aarch64-apple-darwin.tar.gz"
+      sha256 "be5cb94c107b5bc81dd156e7087ce18fdfcfe61f388f298217bd42928df3f732"
     end
     on_intel do
-      url "https://github.com/mericstam/pwsh-autoupdate/releases/download/v0.3.1/pwsh-autoupdate-v0.3.1-x86_64-apple-darwin.tar.gz"
-      sha256 "1efe90ee5b15a3e4e461721f9b1b1e246cfee2c3ee923f42597c5064b45c5555"
+      url "https://github.com/mericstam/pwsh-autoupdate/releases/download/v0.3.2/pwsh-autoupdate-v0.3.2-x86_64-apple-darwin.tar.gz"
+      sha256 "87cee42bddcacdaa8cbd7fb728fec872f7c7d198f5bd499dec0e7946f56b14b7"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/mericstam/pwsh-autoupdate/releases/download/v0.3.1/pwsh-autoupdate-v0.3.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "542d81d8efe4471a052d0695d5d5837ee247263c77c8ed16cc76ce374bcbced1"
+      url "https://github.com/mericstam/pwsh-autoupdate/releases/download/v0.3.2/pwsh-autoupdate-v0.3.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "01e764c6e14629f811fd6341e505a693d1073dcfad91333d3653e968f09f0e58"
     end
   end
 
